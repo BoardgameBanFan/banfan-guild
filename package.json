@@ -1,0 +1,27 @@
+{
+  "name": "banfan-guild",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^4.13.1",
+    "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
+    "next": "16.0.5",
+    "pusher-js": "^8.4.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-select": "^5.10.2",
+    "sass": "^1.94.2",
+    "swr": "^2.3.6",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.0.5"
+  }
+}

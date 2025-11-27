@@ -1,0 +1,76 @@
+.div__container {
+  margin-top: 3rem;
+}
+
+.h2__title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.div__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.div__card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.div__header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.h3__name {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #111;
+}
+
+.span__email {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.div__details {
+  p {
+    margin: 0.5rem 0;
+    color: #444;
+  }
+}
+
+.div__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.span__tag {
+  background: #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.div__error {
+  text-align: center;
+  color: red;
+}
+
+.div__loading {
+  text-align: center;
+  color: #666;
+}

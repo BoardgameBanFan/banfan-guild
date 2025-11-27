@@ -1,0 +1,19 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ju3cmq8bk0rhecnaug",
+    "operations": [
+      {
+        "drop_column": {
+          "table": "member",
+          "column": "isRestMember"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ju3cmq8bk0rhecnaug",
+  "parent": "mig_d4ju35uq8bk0rhecnatg",
+  "schema": "public",
+  "startedAt": "2025-11-27T05:29:23.192216Z"
+}

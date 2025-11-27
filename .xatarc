@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Boardgame-Podcast-s-workspace-39js0q.us-west-2.xata.sh/db/ff14-guild",
+  "codegen": {
+    "output": "src/xata/xata.js",
+    "moduleType": "esm"
+  }
+}

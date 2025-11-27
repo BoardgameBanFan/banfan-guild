@@ -1,0 +1,27 @@
+.main__container {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #f0f2f5, #e1e4e8);
+}
+
+.div__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.h1__title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #0070f3, #00c6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p__description {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}

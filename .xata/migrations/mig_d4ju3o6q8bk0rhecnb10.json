@@ -1,0 +1,22 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ju3o6q8bk0rhecnb10",
+    "operations": [
+      {
+        "alter_column": {
+          "up": "(SELECT CASE WHEN \"mail\" IS NULL THEN '' ELSE \"mail\" END)",
+          "down": "(SELECT CASE WHEN \"mail\" IS NULL THEN '' ELSE \"mail\" END)",
+          "table": "member",
+          "column": "mail",
+          "nullable": false
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ju3o6q8bk0rhecnb10",
+  "parent": "mig_d4ju3j6q8bk0rhecnb00",
+  "schema": "public",
+  "startedAt": "2025-11-27T05:30:09.645542Z"
+}

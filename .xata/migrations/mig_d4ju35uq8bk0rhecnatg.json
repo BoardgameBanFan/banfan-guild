@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ju35uq8bk0rhecnatg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "member",
+          "column": {
+            "name": "isRestMember",
+            "type": "bool",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ju35uq8bk0rhecnatg",
+  "parent": "mig_d4ju1req8bk0rhecnasg",
+  "schema": "public",
+  "startedAt": "2025-11-27T05:28:55.930867Z"
+}

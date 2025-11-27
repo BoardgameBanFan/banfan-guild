@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ju7d6q8bk0rhecnb20",
+    "operations": [
+      {
+        "add_column": {
+          "table": "member",
+          "column": {
+            "name": "jobs",
+            "type": "text[]",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ju7d6q8bk0rhecnb20",
+  "parent": "mig_d4ju3o6q8bk0rhecnb10",
+  "schema": "public",
+  "startedAt": "2025-11-27T05:37:57.536565Z"
+}
